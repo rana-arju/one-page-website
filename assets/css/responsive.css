@@ -1,0 +1,136 @@
+/* Medium layout */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .banner-section .banner-content{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .blog-meta{
+        margin: 0 auto;
+    }
+}
+/* tablet layout */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .about-content li{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .single-feature h4{
+        font-size: 16px;
+    }
+    .single-feature p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .processing-area .single-process h4{
+        font-size: 14px;
+    }
+    .single-prices ul li{
+        font-size: 14px;
+    }
+    .single-prices > span{
+        font-size: 20px;
+    }
+    .single-prices h4{
+        font-size: 30px;
+    }
+   
+}
+/* Mobile layout */
+@media only screen and (max-width: 767px){
+    .processing-area{
+      height: 100%;
+    }
+    .single-counter{
+        margin-bottom: 30px;
+    }
+    .single-counter h4 span{
+        margin: 5px;
+    }
+    .single-blog {
+        margin-bottom: 15px;
+      }
+      .blog-meta a{
+          display: block;
+      }
+      .single-prices{
+          margin-bottom: 25px;
+      }
+      .feature-1::after,.feature-2::after,.feature-1::before,.feature-2::before{
+          display: none;
+      }
+      .single-feature{
+          text-align: center;
+      }
+      .single-feature h4::after {
+          left: 50%;
+          transform: translate(-50%,50%);
+      }
+      .about-content {
+        margin-bottom: 25px;
+      }
+      .single-about {
+        margin-bottom: 20px;
+      }
+      .single-prices ul{
+          text-align: left;
+      }
+      .banner-content h1{
+          font-size: 30px;
+      }
+      .banner-content h4,.about-content h4,.single-about h4, .single-feature h4, .single-services h4, .single-project h4,.member-content h4,.single-prices > span,.author-info h4,.blog-content h2, .single-contact h4{
+          font-size: 18px;
+      }
+      .banner-content p{
+          padding: 0 6px;
+      }
+      .section-title h2,.single-prices h4,.video-area h4{
+        font-size: 25px;
+      }
+      .section-title span,.section-title p,.about-content p, .box-btn,.single-project h4 span,.member-content h4 span,.single-prices h4 span, .single-contact h4 span,.footer-area p,.single-prices ul li{
+          font-size: 14px;
+      }
+      .blog-meta a{
+          display: inline-block;
+      }
+      .single-prices h4{
+          padding: 6px;
+      }
+      ::placeholder{
+        font-size: 14px;
+      }
+      .single-contact i{
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+      }
+}
+@media only screen and (max-width: 575px){
+    .banner-section .owl-dots{
+        display: none;
+    }
+    .banner-content h4,.about-content h4,.single-about h4, .single-feature h4, .single-services h4, .single-project h4,.member-content h4,.single-prices > span,.author-info h4,.blog-content h2, .single-contact h4{
+        font-size: 15px;
+    }
+    .section-title h2, .single-prices h4, .video-area h4,.banner-content h1 {
+        font-size: 22px;
+    }
+    .pt-100{
+        padding-top: 30px;
+    } 
+    .pb-100{
+        padding-bottom: 30px;
+    }
+    .pb-5{
+        padding-bottom: 0 !important;
+    }
+    .subscription-area input[type="submit"]{
+        padding: 8px 10px;
+    }
+    .subscription-area input{
+        padding: 7px 10px;
+    }
+    .processing-area{
+        display: none;
+    }
+    
+}
